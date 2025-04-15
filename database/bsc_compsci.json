@@ -1,0 +1,369 @@
+{
+    "courses": [
+      {
+        "Code": "COMP 125",
+        "Title": "Principles of Computing",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": []
+      },
+      {
+        "Code": "COMP 150",
+        "Title": "Introduction to Programming",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": []
+      },
+      {
+        "Code": "COMP 152",
+        "Title": "Introduction to Structured Programming",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": []
+      },
+      {
+        "Code": "COMP 155",
+        "Title": "Object-oriented Programming",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 150",
+            "Title": "Introduction to Programming",
+            "RequiredGrade": "C+"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "COMP 152",
+                "Title": "Introduction to Structured Programming",
+                "RequiredGrade": "C+"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "COMP 230",
+        "Title": "Databases and Database Management Systems",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 155",
+            "Title": "Object-oriented Programming",
+            "RequiredGrade": "C-"
+          }
+        ]
+      },
+      {
+        "Code": "COMP 251",
+        "Title": "Data Structures and Algorithms",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 155",
+            "Title": "Object-oriented Programming",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "COMP 125",
+            "Title": "Principles of Computing",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "MATH 125",
+            "Title": "Introduction to Discrete Mathematics",
+            "RequiredGrade": "C-"
+          }
+        ]
+      },
+      {
+        "Code": "COMP 256",
+        "Title": "Introduction to Machine Architecture",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 125",
+            "Title": "Principles of Computing",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "COMP 150",
+            "Title": "Introduction to Programming",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "COMP 152",
+                "Title": "Introduction to Structured Programming",
+                "RequiredGrade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "MATH 111",
+        "Title": "Calculus I",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": []
+      },
+      {
+        "Code": "MATH 112",
+        "Title": "Calculus II",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "MATH 111",
+            "Title": "Calculus I",
+            "RequiredGrade": "C"
+          }
+        ]
+      },
+      {
+        "Code": "MATH 125",
+        "Title": "Introduction to Discrete Mathematics",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": []
+      },
+      {
+        "Code": "MATH 221",
+        "Title": "Linear Algebra",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "MATH 112",
+            "Title": "Calculus II",
+            "RequiredGrade": "C"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "MATH 118",
+                "Title": "Calculus II for Life Sciences",
+                "RequiredGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "MATH 225",
+        "Title": "Topics in Discrete Mathematics",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "MATH 112",
+            "Title": "Calculus II",
+            "RequiredGrade": "C+"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "MATH 118",
+                "Title": "Calculus II for Life Sciences",
+                "RequiredGrade": "C+"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "MATH 270",
+        "Title": "Introduction to Probability and Statistics",
+        "Credits": 4,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "MATH 112",
+            "Title": "Calculus II",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "MATH 118",
+                "Title": "Calculus II for Life Sciences",
+                "RequiredGrade": "C-"
+              },
+              {
+                "Code": "MATH 141",
+                "Title": "Calculus for Business",
+                "RequiredGrade": "B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "COMP 340",
+        "Title": "Operating Systems",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          }
+        ]
+      },
+      {
+        "Code": "COMP 359",
+        "Title": "Design and Analysis of Algorithms",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "MATH 125",
+            "Title": "Introduction to Discrete Mathematics",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "MATH 225",
+                "Title": "Topics in Discrete Mathematics",
+                "RequiredGrade": "C-"
+              }
+            ]
+          },
+          {
+            "Code": "STAT 106",
+            "Title": "Statistics I",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "STAT 270",
+                "Title": "Introduction to Probability and Statistics",
+                "RequiredGrade": "C-"
+              },
+              {
+                "Code": "MATH 270",
+                "Title": "Introduction to Probability and Statistics",
+                "RequiredGrade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "MATH 343",
+        "Title": "Applied Discrete Mathematics",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "MATH 225",
+                "Title": "Topics in Discrete Mathematics",
+                "RequiredGrade": "C-"
+              },
+              {
+                "Code": "MATH 221",
+                "Title": "Linear Algebra",
+                "RequiredGrade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "COMP 370",
+        "Title": "Software Engineering",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "CIS 270",
+            "Title": "Analysis and Design",
+            "RequiredGrade": "C-"
+          }
+        ]
+      },
+      {
+        "Code": "COMP 380",
+        "Title": "Introduction to Artificial Intelligence",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "STAT 106",
+            "Title": "Statistics I",
+            "RequiredGrade": "C-"
+          },
+          {
+            "AlternativeCourses": [
+              {
+                "Code": "STAT 270",
+                "Title": "Introduction to Probability and Statistics",
+                "RequiredGrade": "C-"
+              },
+              {
+                "Code": "MATH 270",
+                "Title": "Introduction to Probability and Statistics",
+                "RequiredGrade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "COMP 382",
+        "Title": "Languages, Computation, and Machines",
+        "Credits": 3,
+        "required_300_level_credits": 0,
+        "Prerequisite_Courses": [
+          {
+            "Code": "COMP 251",
+            "Title": "Data Structures and Algorithms",
+            "RequiredGrade": "C-"
+          },
+          {
+            "Code": "MATH 225",
+            "Title": "Topics in Discrete Mathematics",
+            "RequiredGrade": "C-"
+          }
+        ]
+      },
+      {
+        "Code": "COMP 420",
+        "Title": "Computers and Society",
+        "Credits": 3,
+        "required_300_level_credits": 12,
+        "Prerequisite_Courses": []
+      }
+    ]
+  }
